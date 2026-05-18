@@ -50,11 +50,33 @@
 ## Структура репозитория
 
 ```text
-main.py                         # основной код прототипа
-requirements.txt                # список библиотек
-data/                           # исходный синтетический набор данных
-results/                        # итоговые таблицы
-images/                         # графики и матрица ошибок
+## Структура репозитория
+
+```text
+vkr-education-data-filtering/
+├── main.py
+├── requirements.txt
+├── README.md
+├── data/
+│   └── synthetic_education_results.csv
+├── results/
+│   ├── features_dataset.csv
+│   ├── model_metrics.csv
+│   ├── final_predictions.csv
+│   ├── filtered_dataset.csv
+│   ├── suspicious_objects.csv
+│   ├── real_features_profiles.csv
+│   ├── real_profile_summary.csv
+│   ├── real_suspicious_profiles.csv
+│   ├── real_strong_stable_results.csv
+│   ├── real_small_samples.csv
+│   └── real_feature_importance.csv
+└── images/
+    ├── normal_distribution.png
+    ├── suspicious_distribution.png
+    ├── model_metrics_comparison.png
+    ├── confusion_matrix.png
+    └── real_feature_importance.png
 ```
 
 ## Запуск
